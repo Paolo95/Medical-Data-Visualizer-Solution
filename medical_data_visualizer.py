@@ -72,7 +72,7 @@ def draw_heat_map():
         cbar_kws={"shrink": 0.6},  # Shrink the color bar
         square=True,      # Keep cells square
     )
-git remote set-url origin https://github.com/<github-username>/<repository-name>.git
+
     # 16
     fig.savefig('heatmap.png')
     return fig
